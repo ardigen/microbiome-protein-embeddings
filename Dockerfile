@@ -1,4 +1,4 @@
-FROM registry.ardigen.com/biome-forte/dockers/base-docker
+FROM registry.ardigen.com/biome-forte/dockers/base-docker:latest
 
 WORKDIR /source
 

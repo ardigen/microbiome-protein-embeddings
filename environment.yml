@@ -6,28 +6,7 @@ channels:
 
 dependencies:
   - python=3.7
-  - biopython
-  - bokeh
   - clustalo=1.2.4
-  - datashader
   - holoviews
-  - ipython
-  - joblib
-  - jupyter
-  - jupyter_nbextensions_configurator
-  - jupyterlab
-  - markdown
-  - matplotlib
-  - nbclient
-  - nbconvert
-  - nbformat
-  - nbstripout
-  - numba
-  - pandas
-  - scikit-learn
-  - scipy
-  - seaborn
-  - pytables
   - pynndescent=0.4.7
-  - tqdm
   - umap-learn=0.5.1
