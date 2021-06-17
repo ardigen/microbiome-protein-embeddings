@@ -6,12 +6,12 @@ channels:
 
 dependencies:
   - biopython=1.77
-  - bokeh=2.3.0
+  - bokeh=2.0.1
   - clustalo=1.2.4
-  - datashader=0.12.1
+  - datashader=0.10
   - holoviews=1.14
   - ipython
-  - joblib=1.0.1
+  - joblib
   - jupyter
   - jupyter_nbextensions_configurator
   - jupyterlab
@@ -22,12 +22,12 @@ dependencies:
   - nbformat
   - nbstripout
   - numba
-  - pandas=1.2.3
+  - pandas
   - python=3.7
   - scikit-learn=0.23.1
-  - scipy=1.4.1
-  - seaborn=0.11.0
-  - pytables=3.6.1
+  - scipy
+  - seaborn
+  - pytables=3.6
   - pynndescent=0.4.7
-  - tqdm=4.45.0
+  - tqdm
   - umap-learn=0.5.1
