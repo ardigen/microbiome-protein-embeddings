@@ -7,9 +7,9 @@ channels:
 dependencies:
   - python=3.7
   - biopython
-  - bokeh=2.0.1
+  - bokeh
   - clustalo=1.2.4
-  - datashader=0.10
+  - datashader
   - holoviews=1.14
   - ipython
   - joblib
