@@ -5,7 +5,8 @@ channels:
   - bioconda
 
 dependencies:
-  - biopython=1.77
+  - python=3.7
+  - biopython
   - bokeh=2.0.1
   - clustalo=1.2.4
   - datashader=0.10
@@ -16,18 +17,17 @@ dependencies:
   - jupyter_nbextensions_configurator
   - jupyterlab
   - markdown
-  - matplotlib=3.3.0
+  - matplotlib
   - nbclient
   - nbconvert
   - nbformat
   - nbstripout
   - numba
   - pandas
-  - python=3.7
-  - scikit-learn=0.23.1
+  - scikit-learn
   - scipy
   - seaborn
-  - pytables=3.6
+  - pytables
   - pynndescent=0.4.7
   - tqdm
   - umap-learn=0.5.1
