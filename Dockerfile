@@ -4,7 +4,7 @@ WORKDIR /source
 
 ADD . .
 
-RUN conda create --name pub --file environment.yml
+RUN conda env create --file environment.yml
 
 # Set conda env as default
 ENV ENV_NAME "pub"
