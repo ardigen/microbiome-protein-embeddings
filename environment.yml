@@ -10,7 +10,7 @@ dependencies:
   - bokeh
   - clustalo=1.2.4
   - datashader
-  - holoviews=1.14
+  - holoviews
   - ipython
   - joblib
   - jupyter
