@@ -21,7 +21,7 @@ Data will be downloaded to `data` folder.
 
 ## Create environment and install dependencies
 ```bash
-conda conda env create --file environment.yml
+conda env create --file environment.yml
 ```
 
 ## Activate the environment
