@@ -1,16 +1,45 @@
 # Microbiome Protein Embeddings
 
-The repository contains code to reproduce analyses included in ArdiMiPE Publication.
+The repository contains code to reproduce analyses included in our publication: [Deep embeddings to comprehend and visualize microbiome protein space](https://www.biorxiv.org/content/10.1101/2021.07.21.452490v1)
+
+
+## Download data
+
+To download data (embeddings) used in the notebooks run:
+```bash
+./download-data.sh
+```
+Data will be downloaded to `data` folder.
+
+# How to set up environment
+
+## Install required tools
+```
+- [conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html)
+- timelimit (sudo apt install timelimit)
+```
+
+## Create environment and install dependencies
+```bash
+conda conda env create --file environment.yml
+```
+
+## Activate the environment
+```
+conda activate mpe
+```
+
+Now environment is ready to run the notebooks.
 
 ## Citation Guidelines
 
 If you find the repository useful, please cite our paper. 
 
 ```
-@inproceedings{ardimipe2021,
-author = {},
-title = {},
-booktitle = {}
-year = {}
+@article {ArdiMIPE,
+	author = {Odrzywolek, Krzysztof and Karwowska, Zuzanna and Majta, Jan and Byrski, Aleksander and Milanowska-Zabel, Kaja and Kosciolek, Tomasz},
+	title = {Deep embeddings to comprehend and visualize microbiome protein space},
+	year = {2021},
+	doi = {10.1101/2021.07.21.452490},
 }
 ```
