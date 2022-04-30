@@ -35,7 +35,6 @@ def _cont_scatter(df, x, y, color=None, title='', **kwargs):
     scatterplot = rasterize(
         points,
         aggregator=ds.mean(color) if color else 'default',
-        px=20
         # width=2400,
         # height=2400,
     )

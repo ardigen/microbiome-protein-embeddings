@@ -1,4 +1,4 @@
-name: base
+name: mpe
 channels:
   - defaults
   - conda-forge
