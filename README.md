@@ -36,10 +36,14 @@ Now environment is ready to run the notebooks.
 If you find the repository useful, please cite our paper. 
 
 ```
-@article {Odrzywolek2021,
-	author = {Odrzywolek, Krzysztof and Karwowska, Zuzanna and Majta, Jan and Byrski, Aleksander and Milanowska-Zabel, Kaja and Kosciolek, Tomasz},
-	title = {Deep embeddings to comprehend and visualize microbiome protein space},
-	year = {2021},
-	doi = {10.1101/2021.07.21.452490},
+@article{odrzywolek2022,
+  title={Deep embeddings to comprehend and visualize microbiome protein space},
+  author={Odrzywolek, Krzysztof and Karwowska, Zuzanna and Majta, Jan and Byrski, Aleksander and Milanowska-Zabel, Kaja and Kosciolek, Tomasz},
+  journal={Scientific reports},
+  volume={12},
+  number={1},
+  pages={1--15},
+  year={2022},
+  publisher={Nature Publishing Group}
 }
 ```
